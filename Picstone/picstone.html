@@ -21,6 +21,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 color: #702DFF;
+padding: 20px;
 ;
    }   
    .hbx{
@@ -41,12 +42,22 @@ color: #702DFF;
    }
    .emi{
 background-color: #702DFF;
+color: white;
+outline: 1px solid white;
+    border-radius: 10px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
 ;
 width: 94px;
 height: 31px;
    }
-   .imgbox{
-
+   .imgboxes{
+gap: 25px;
    }
    header{
     background-color:white;
@@ -55,6 +66,9 @@ height: 31px;
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
+   padding: 120px;
+   gap: 10px;
 }
    .section1box1{
 font-size: 32px;
@@ -76,11 +90,14 @@ align-items: center;
 width: 42%;
 text-align: center;
 margin-top: 10px;
+font-style: italic;
    }
    .section2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
    }
    .imgboxes{
     display: flex;
@@ -90,13 +107,17 @@ margin-top: 10px;
    .fresh{
     font-size: 48px;
    align-self:center ;
- width: 70%;
+ width: 60%;
  text-align: center;
     justify-content: center;
+    color: #702DFF;
    }
    .box2{
     display: flex;
     width: 110%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
    }
    .section4{
     display: flex;
@@ -110,6 +131,32 @@ margin-top: 10px;
 .ISSL{
     width: 25%;
     height: 25%;
+}
+.uploadone{
+    background-color: #702DFF;
+color: white;
+outline: 1px solid white;
+    border-radius: 10px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+}
+.upload{
+    background-color: #702DFF;
+color: white;
+outline: 1px solid white;
+    border-radius: 10px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
 }
    .seca{
  width: 45%;
@@ -132,6 +179,19 @@ margin-top: 10px;
    .sectio4box3{
     margin-top: 22px;
    }
+   .box1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   }
+   .hb1 a{
+    color: #702DFF;
+    text-decoration: none;
+   }
+
+   .section3{
+    
+   }
     </style>
 <header>
     <div class="header">
@@ -143,7 +203,8 @@ margin-top: 10px;
               <b> EXPLORE</b> 
             </div>
             <div class="hb1">
-                <b>ABOUT</b>
+                <a href="index.html"><b>ABOUT</b>
+                </a>
             </div>
            <div class="hb1">
      <b>CONTACT</b>
@@ -151,8 +212,8 @@ margin-top: 10px;
         </div>
     
         <div class="hbtn">
-            <div class="txt">sign up</div>
-            <button class="emi">sign in</button>
+            <div class="txt">Sign Up</div>
+            <div class="emi">Sign In</div>
         </div>
        </div>
 </header>
@@ -167,9 +228,9 @@ margin-top: 10px;
        <div class="box2"> Where Image Paints Thousand Stories</div> 
     </div>
     <div class="section1box3">
-        Welcome to PromptSpot, the ultimate source of creative inspiration for writers, artists, and creators. Unlock your imagination, overcome creative blocks, and unleash your full creative potential with our diverse collection of prompts.
+       <b> Welcome to PromptSpot, the ultimate source of creative inspiration for writers, artists, and creators. Unlock your imagination, overcome creative blocks, and unleash your full creative potential with our diverse collection of prompts.</b>
     </div>
-    <button class="upload">Upload an image</button>
+    <div class="upload"><b>Upload an Image</b></div>
 </div>
 
 <div class="section2">
@@ -191,16 +252,18 @@ margin-top: 10px;
 </div>
 
     </div>
-    <button class="ISSL">Explore</button>
+    
 </div>
 
 <div class="section3">
+    
     <div class="section3text">
         Winter Wonders
     </div>
     <div class="section3content">
         Embrace the enchantment of the winter season with our "Winter Wonders" themed prompt. Capture the essence of snowy landscapes, cozy moments by the fireplace, or the magic of holiday festivities. Write a poem, paint a wintry scene, or create any form of art that celebrates the beauty and emotions of winter. Let the chill in the air inspire your creativity and transport you to a world of winter wonders.
     </div>
+    <div class="uploadone">Explore</div>
 </div>
 
 <div class="section4">

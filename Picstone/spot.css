@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: white;
 }
 header{
    
@@ -42,8 +42,6 @@ header{
     padding-top: 24px;
 }
 
-
-
 .buttonone{
     background-color: transparent;
     color: #702DFF;
@@ -54,7 +52,6 @@ header{
   
  
 }
-
 
 .flex{
     display: flex;
@@ -218,30 +215,30 @@ height: 35vh;
     width: 85%;
     
 }
-    .three {
-        display: flex;
-        flex-direction: column;
-        gap: 17px;
-        padding-right: 150px;
-        
-        
-    }
+.three {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-right: 150px;
+    
+    
+}
 
-    .first{
-        font-size: 24px;
-    }
+.first{
+    font-size: 24px;
+}
 
-    .fourth{
-        font-size: 20px;
-        gap: 7px;
-        width: 18vh;
-    }
+.fourth{
+    font-size: 20px;
+    gap: 7px;
+    width: 18vh;
+}
 
-    .h{
-        background-color: #170F49;
-        padding: 30px;
-        color: whitesmoke;
-        font-size: 16px;
-    }
+.h{
+    background-color: #170F49;
+    padding: 30px;
+    color: whitesmoke;
+    font-size: 16px;
+}
 
     

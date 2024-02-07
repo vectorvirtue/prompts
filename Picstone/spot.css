@@ -11,9 +11,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    background-color: antiquewhite;
 }
-
 header{
    
     display: flex;
@@ -126,7 +125,7 @@ text-align: center;
     justify-content: center;
     padding-top: 0.65rem;
     padding-bottom: 0.65rem;
-    color: white;
+    color: white
 }
 .grid{
     width: 100%;
